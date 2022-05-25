@@ -1,0 +1,33 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "A short project where i learn testing basics",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\\"
+  },
+  "author": "SpiderWacho",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0"
+  },
+  "eslintConfig": {
+    "trailingComma": "es6",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@babel/types": "^7.18.0"
+  }
+}
